@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'arial';
+    
+    
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    padding-top: 100px;
+}
+.img1{
+    background-image: url('../images/27d0055c-b0bf-476c-b3aa-ec59d314f871.jfif');
+ 
+}
+.img2{
+    background-image: url('../images/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0.jfif');
+}
+.img3{
+    background-image: url('../images/dd739764-bcaa-4263-9488-8c73bc9fb046.jfif');
+}
+.img4{
+    background-image: url('../images/Homepage-Model-S-Desktop-LHD.jfif');
+}
+.img5{
+    background-image: url('../images/Homepage-Model-X-Desktop-LHD.jfif');
+}
+.img6{
+    background-image: url('../images/M3-Homepage-Desktop-LHD.jfif');
+}
+header{
+    position: fixed;
+    top: 18px;
+    width: 100%;
+    z-index: 999;
+}
+header ul{
+    margin: 0%;
+}
+
+.container{
+    width: 100%;
+}
+header .container{
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 26px;
+    
+}
+header ul li:hover{
+    background-color: #e7ebeb;
+}
+header ul li a{
+    text-decoration: none;
+    color: #171a20;
+    font-size: 15px;
+}
+main .box p > a{
+    text-decoration: underline;
+    color: #171a20;
+}
+main .container{
+    text-align: center;
+    
+}
+main .box h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.buy{
+    text-align: center;
+    margin: 0 auto;
+    width: 545px;
+    position: relative;
+    top: 304px;
+        
+}
+ .right , .left{
+    border-radius: 5px;
+    width: 260px;
+    height: 28px;
+    padding-top: 10px;
+    
+}
+.right{
+    background-color: rgb(255, 255, 255);
+    color: #2d2d2d;
+    float: right;
+    opacity: 0.8;
+
+}
+.left{
+    background-color: black;
+    color: rgb(250, 250, 250 ) ;
+    opacity: 0.8;
+
+}
+main .box > a{
+    font-size: 15px;
+}
+
+.buy .right a{
+    color: #2d2d2d;
+    font-size: 15px;
+}
+.buy .left a{
+    color: rgb(250, 250, 250 )!important ;
+    font-size: 15px;
+
+
+}
+.shop{
+    background-color: #171a20;
+    color: white;
+    width: 264px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+footer ul li a {
+    color: #686a6e;
+    font-size: 13px;
+}
+footer .container{
+    text-align: center;
+}
+.last{
+    padding-bottom: 0px;
+}
